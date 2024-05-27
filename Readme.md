@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
-* Студент: [Сидрат Хабиева](https://up.htmlacademy.ru/htmlcss/40/user/2244985).
-* Наставник: [Евгения Подопригора](https://htmlacademy.ru/profile/id2387199).
+- Студент: [Сидрат Хабиева](https://up.htmlacademy.ru/htmlcss/40/user/2244985).
+- Наставник: [Евгения Подопригора](https://htmlacademy.ru/profile/id2387199).
+- Сайт: [Мой проект ](https://sidrathbv.github.io/2244985-sedona-40/)
 
 ---
 
