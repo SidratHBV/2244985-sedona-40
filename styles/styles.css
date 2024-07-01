@@ -97,6 +97,7 @@ body {
   display: inline-block;
   border: none;
   border-radius: 4px;
+
   cursor: pointer;
 }
 
@@ -183,7 +184,6 @@ text-align: center;
   color: #333333;
   font-size: 22px;
   line-height: 26px;
-
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -315,11 +315,9 @@ text-align: center;
   text-align: center;
   color: #000000;
   background-color: #ffffff;
-  background-image: url("../images/catalog.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
 }
+
 
 
 .subscription-title {
@@ -328,7 +326,17 @@ text-align: center;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+
 }
+
+
+.subscription-image{
+  background-image: url("../images/catalog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 .subscription-title-change {
     color: #000000;
@@ -438,7 +446,7 @@ catalog-products{
 .field{
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #000000;
 }
 
@@ -468,7 +476,7 @@ catalog-products{
 
 
 .subscriptionh-title{
-  font-size: 30px;
+  font-size: 20px;
   line-height: 36px;
   font-weight: 700;
   color: #000000;
@@ -476,6 +484,7 @@ catalog-products{
 
 
 .select-control{
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
