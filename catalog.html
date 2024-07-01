@@ -88,12 +88,12 @@
                     class="control-input"
                     type="checkbox"
                     name="swimming-pool"
-                    checked/>Басейн</label>
+                    checked/>Бассейн</label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
                   <input
-                    class="control-input visually-hidden"
+                    class="control-input"
                     type="checkbox"
                     name="parking-space"
                     checked
@@ -153,7 +153,7 @@
 
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-            <label for="price-from">от</label>
+            <label class="label-field" for="price-from">от</label>
             <input
               class="field"
               type="number"
@@ -161,7 +161,7 @@
               id="price-from"
               value="0"
             />
-            <label for="price-to">до</label>
+            <label class="label-field" for="price-to">до</label>
             <input
               class="field"
               type="number"
@@ -172,8 +172,8 @@
           </fieldset>
 
           <div class="filter-buttons"></div>
-          <button class="button-submit button" type="submit">Применить</button>
-          <button class="button-reset button" type="reset">Сбросить</button>
+          <button class="button-submit product-card-button" type="submit">ПРИМЕНИТЬ</button>
+          <button class="button-reset" type="reset">СБРОСИТЬ</button>
           </div>
         </form>
       </section>
@@ -229,13 +229,13 @@
             >
             <p class="product-card-info">
               <span class="product-card-type">Гостиница</span>
-              <b class="catalog-card-price">от 4000 ₽</b>
+              <b class="catalog-card-price">От 4000 ₽</b>
             </p>
-            <a class="product-card-button button" href="#">Подробнее</a>
-            <button class="product-card-button" type="button" href="#">В избранное
+            <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
+            <button class="product-card-button" type="button" href="#">В ИЗБРАННОЕ
             </button>
             <p class="visually-hidden">Четыре звезды</p>
-            <p class="rating-result" href="#">Рейтинг</p>
+            <p class="rating-result" href="#">РЕЙТИНГ:8,5</p>
           </li>
 
           <li class="product-card">
@@ -251,14 +251,14 @@
             >
             <p class="product-card-info">
               <span class="product-card-type">Гостиница</span>
-              <b class="catalog-card-price">от 5000 ₽</b>
+              <b class="catalog-card-price">От 5000 ₽</b>
             </p>
-            <a class="product-card-button button" href="#">Подробнее</a>
+            <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
             <button class="product-card-button color-changes" type="button" href="#">
-              В избранном
+              В ИЗБРАННОМ
             </button>
             <p class="visually-hidden">Четыре звезды</p>
-            <p class="rating-result" href="#">Рейтинг</p>
+            <p class="rating-result" href="#">РЕЙТИНГ 9,2</p>
           </li>
 
           <li class="product-card">
@@ -274,14 +274,14 @@
             >
             <p class="product-card-info">
               <span class="product-card-type">Гостиница</span>
-              <b class="catalog-card-price">от 2500 ₽</b>
+              <b class="catalog-card-price">От 2500 ₽</b>
             </p>
-            <a class="product-card-button button " href="#">Подробнее</a>
+            <a class="product-card-button button " href="#">ПОДРОБНЕЕ</a>
             <button class="product-card-button button color-change" type="button" href="#">
-              В избранное
+              В ИЗБРАННОЕ
             </button>
             <p class="visually-hidden">Три звезды</p>
-            <p class="rating-result" href="#">Рейтинг</p>
+            <p class="rating-result" href="#">РЕЙТИНГ:6,9</p>
           </li>
 
           <li class="product-card">
@@ -293,18 +293,18 @@
                 height="212"
                 alt="Гора на фоне звездного неба"
               />
-              <h3 class=" ">GreenTree Inn</h3></a
+              <h3 class="product-card-title">GreenTree Inn</h3></a
             >
             <p class="product-card-info">
               <span class="product-card-type">Гостиница</span>
-              <b class="catalog-card-price">от 1500 ₽</b>
+              <b class="catalog-card-price">От 1500 ₽</b>
             </p>
-            <a class="product-card-button button" href="#">Подробнее</a>
+            <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
             <button class="product-card-button button color-change" type="button" href="#">
-              В избранное
+              В ИЗБРАННОЕ
             </button>
             <p class="visually-hidden">Две звезды</p>
-            <p class="rating-result" href="#">Рейтинг</p>
+            <p class="rating-result" href="#">РЕЙТИНГ:5,0</p>
           </li>
         </ul>
 
@@ -339,9 +339,9 @@
 
       <section class="subscription">
         <div class="subscription-container"></div>
-          <h2 class="subscriptionh-title">Подпишитесь на рассылку</h2>
+          <h2 class="subscriptionh-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
           <p class="subscription-text subscription-title-change">
-            Только полезная информация и никакого спама, честное бойскаутское!
+            Только полезная информация и никакого спама,<br>честное бойскаутское!
           </p>
           <form
             class="subscription-form"
@@ -349,7 +349,7 @@
             method="post">
             <label class="visually-hidden" for="subscription-email">Email</label>
             <input
-              class="field"
+              class="field-email"
               type="email"
               name="subscription-email"
               id="subscription-email"
