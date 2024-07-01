@@ -156,7 +156,6 @@ body {
 
 .main-index {
   color: #000000;
-  background-color: #83B3D3;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -170,6 +169,17 @@ body {
 }
 
 
+.advantages{
+  background-color: #F0F6FA;
+}
+
+.advantages-color{
+  background-color: #E6F0F6;}
+
+.advantages-item-container{
+  background-color: #83B3D3;
+
+}
 
 
 /* Services */
@@ -186,6 +196,14 @@ body {
 }
 
 
+.services-list{
+  background-color: #F0F6FA;
+}
+
+
+.services-list-color{
+  background-color: #ffffff;
+}
 
 
 
@@ -233,11 +251,18 @@ body {
   text-transform: uppercase;
 }
 
-.pagination-item{
+.pagination .pagination-item {
+font-size: 20px;
+line-height: 36px;
+font-style: normal;
+font-weight: 700;
 color:#ffffff;
 background-color:  #82B3D3;
-
+text-decoration: none;
+position: relative;
+text-align: center;
 }
+
 
 
 .pagination-item:first-child{
