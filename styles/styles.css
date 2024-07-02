@@ -97,7 +97,6 @@ body {
   display: inline-block;
   border: none;
   border-radius: 4px;
-
   cursor: pointer;
 }
 
@@ -259,9 +258,8 @@ text-align: center;
   text-transform: uppercase;}
 
   .search-lead {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-size: 22px;
-
     line-height: 26px;
     text-align: center;}
 
@@ -269,7 +267,7 @@ text-align: center;
       font-size: 20px;
       line-height: 36px;
       font-weight: 700;
-      padding: 8px 50px;
+
     }
 
 
@@ -289,7 +287,9 @@ text-align: center;
   text-transform: uppercase;
 }
 
-.pagination .pagination-item {
+/* Pagination */
+
+.pagination-item {
 font-size: 20px;
 line-height: 36px;
 font-style: normal;
@@ -299,9 +299,18 @@ background-color:  #82B3D3;
 text-decoration: none;
 position: relative;
 text-align: center;
+border-radius: 4px;
 }
 
+.pagination-link{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
 
+
+}
 
 .pagination-item:nth-child(5){
   background-color:#F2F2F2
@@ -317,6 +326,7 @@ text-align: center;
   background-color: #ffffff;
 
 }
+
 
 
 
@@ -444,6 +454,7 @@ catalog-products{
 
 
 .field{
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -465,14 +476,7 @@ catalog-products{
 }
 
 
-.pagination-link{
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 700;
-  color: #ffffff;
-  text-decoration: none;
 
-}
 
 
 .subscriptionh-title{
@@ -505,6 +509,7 @@ color: #ffffff;
 
 
 .control-input{
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
