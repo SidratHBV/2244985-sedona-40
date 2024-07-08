@@ -47,6 +47,7 @@ body {
   background-color: #ffffff;
   color: #000000;
   width: 1200px;
+  height: 100%;
   box-shadow: 0 0 15px 0 hsla(0, 0%, 0%, 0.2);
 }
 
@@ -345,9 +346,9 @@ page-header {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase
-
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 
@@ -390,14 +391,17 @@ page-header {
 }
 
 
-.advantages-item {
-  width: 400px;
-  padding: 112px 85px;
-  background-color: hsla(204, 48%, 67%, 0.12);
+.advantages-item-lists {
+  widthdisplay: flex;
+  width: 1200px;
+  color: #ffffff;
+  background-color: #82b3d3;
 }
 
 
 .advantages-item {
+  width: 400px;
+  padding: 112px 85px;
   background-color: hsla(0, 0%, 100%, 0.3);
 }
 
@@ -560,20 +564,36 @@ page-header {
 
 
 .pagination-link{
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 700;
-  color: #ffffff;
-  background-color: #82b3d3;
-  text-decoration: none;
-  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 60px;
   min-width: 60px;
+  padding: 12px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #82b3d3;
+  border-radius: 4px;
 }
 
+
+
+.pagination-link:hover {
+  background-color: #68a2ca;
+}
+
+.pagination-link:focus-visible {
+  background-color: #68a2ca;
+}
+
+.pagination-link:active {
+  color: hsla(0, 0%, 100%, 0.3);
+
+  background-color: #82b3d3;
+}
 
 .pagination-current,
 .pagination-current:hover,
@@ -589,10 +609,17 @@ page-header {
 .pagination-dots:active {
   color: #000000;
   background-color: #ffffff;
-  padding: 17px 22px;
+
 }
 
+.pagination-item {
+  margin-bottom: 5px;
+  width: min-content;
+}
 
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .pagination-item:nth-child(5){
   background-color:#F2F2F2;
@@ -1121,7 +1148,6 @@ catalog-products{
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0 auto;
   padding: 0;
   text-align: center;
